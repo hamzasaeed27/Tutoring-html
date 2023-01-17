@@ -1,0 +1,35 @@
+h1 {text-align:center;
+    font-family: "Copperplate", Fantasy, serif;
+    font-size: 50px;}
+
+h2 {text-align:center;
+    font-family: "Copperplate", Fantasy, serif;
+    font-size: 30px;}
+
+p {font-size: 20px;}
+
+ul {font-size: 20px;}
+
+table {border-collapse: collapse;
+	 border-spacing: 0;
+	 width: 100%;
+	 border: 10px solid #ddd;}
+
+td {padding: 20px;}
+
+body  {background-color: silver;}
+
+.image {display: block;
+ 		  margin-left: auto;
+  		  margin-right: auto;
+  		  width: 40%;}
+
+.text {display: block;
+  		 margin-left: auto;
+  		 margin-right: auto;
+  		 width: 80%;}
+
+.list {display: block;
+  		 margin-left: auto;
+  		 margin-right: auto;
+  		 width: 80%;}

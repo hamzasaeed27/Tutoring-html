@@ -1,0 +1,118 @@
+#bod {
+	background-image: url("../Image_Files/page08pic.jpg");
+	font-family: Georgia;
+	background-size: 300px 300px;
+}
+
+#fname,
+#lname {
+	width: 100%;
+	text-transform: capitalize;
+}
+
+#email,
+#pnumber {
+	width: 100%;
+}
+
+#liltxt1,
+#liltxt2 {
+	font-size: 10px;
+}
+
+
+button.clr-button {
+	font-family: Georgia;
+	padding: 7px 20px !important;
+	border-radius: 5px;
+	margin: 0px 0px 0px 20px;
+	background-color: darkslateblue;
+	border: 3px solid darkslateblue;
+	border-radius: 12px;
+	transition: 0.8s;
+	border-color: white;
+	float: right;
+	font-size: 20px;
+}
+
+button.clr-button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+button.clr-button:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+button.clr-button:hover a {
+	color: white;
+}
+
+
+button.sub-button {
+	font-family: georgia;
+	padding: 7px 20px !important;
+	border-radius: 5px;
+	margin: 0px 0px 0px 20px;
+	background-color: darkslateblue;
+	border: 3px solid darkslateblue;
+	border-radius: 12px;
+	transition: 0.8s;
+	border-color: white;
+	float: right;
+	font-size: 20px;
+}
+
+button.sub-button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+button.sub-button:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+button.sub-button:hover a {
+	color: white;
+}
+
+
+#question {
+	width: 100%;
+}
+
+#fs1 {
+	background-color: #B6D0E2;
+	width: 65%;
+	margin: auto;
+	text-align: left;
+	border-style: double;
+	border-color: gray;
+	background-image: linear-gradient(100deg, powderblue, steelblue);
+}
+
+#contactus {
+	font-size: 65px;
+	background: -webkit-linear-gradient(160deg, powderblue, #487396);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+.mapouter {
+	margin: auto;
+	position: relative;
+	text-align: right;
+	height: 300px;
+	width: 900px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 300px;
+	width: 900px;
+}
